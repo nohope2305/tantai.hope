@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="css/layout.css">
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.min.js.map"></script>
+</head>
+<body>
+    <section class="myheader">
+        <div class="container">
+           <div class="row">
+            <div class="col-md-3">
+                <img src="img/logoweb.jpg" class="img-fluid" alt="logo" width="120px">
+            </div>
+            <div class="col-md-4 ">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Từ khoá tìm kiếm" aria-label=""Từ khoá tìm kiếm" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="fs-3 text-danger">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                Tư vấn hỗ trợ<br>
+                                <strong class="text-danger">0961333640</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="fs-3 text-danger">
+                                    <i class="fa-regular fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                Xin chào<br>
+                                <strong class="text-danger">Đăng nhập</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- loginn -->
+            <div class="col-md-2">
+                <a href="#" class="position-relative">
+                    <span class="fs-3"><i class="fa-solid fa-cart-shopping"></i></span>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                      0
+                      <span class="visually-hidden">unread messages</span>
+                    </span>
+                </a>
+            </div>
+           </div> 
+        </div>
+    </section>
+    <!--myHeader-->
+    <section class="mymenu bg-warning-subtle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-black py-2">
+                    Danh mục sản phẩm
+                </div>
+                <div class="col-md-9">
+                    <nav class="navbar navbar-expand-lg text-bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand d-none" href="#">Navbar</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link text-black active" aria-current="page" href="#">Trang chủ</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-black" href="#">Giới thiệu</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-b" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Sản phẩm
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  </ul>
+                              </li> 
+                              <li class="nav-item">
+                                <a class="nav-link disabled text-black">Liên hệ</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mymaincontent my-3">
+        <div class="container">
+            <div class="slider">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/slider1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/slider2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/slider3.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <!--silderr-->
+            <div class="cate-list mb-3">
+                <div class="row"></div>
+            </div>
+            <!--silderr-->
+            <div class="product-list mb-3">
+                <div class="product_title border-bottom">
+                    <strong class="bg-danger text-white ">NƯỚC HOA</strong>
+                </div>
+                <div class="product_list-s py-3">
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <img src="img/sanpham1.png" class="img-fluid" alt="">
+                            <h4>Nước hoa Versace Eros</h4>
+                            <h3>3.480.000</h3>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="img/san pham 2.png" class="img-fluid w-10">
+                            <h4>Nước hoa The One for men EDP</h4>
+                            <h3>3.850.000</h3>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="img/sanpham3.png" class="img-fluid w-10" >
+                            <h4>NƯỚC HOA MOSCHINO TOY BOY EDP</h4>
+                            <h3>2.490.000</h3>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="img/sanpham4.png" class="img-fluid w-10">
+                            <h4>Nước hoa Hugo Just Different</h4>
+                            <h3>2.710.000</h3>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="img/sanpham5.png" class="img-fluid w-10">
+                            <h4>Nước hoa Polo Black</h4>
+                            <h3>3.450.000</h3>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="img/sanpham6.png" class="img-fluid w-10">
+                            <h4>Nước hoa CK BE</h4>
+                            <h3>2.040.000</h3>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="img/sanpham7.png" class="img-fluid w-10">
+                            <h4>Nước hoa Le Male</h4>
+                            <h3>1.930.000</h3>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <img src="img/sanpham8.png" class="img-fluid w-10">
+                            <h4>Nước hoa 212 VIP FOR MEN</h4>
+                            <h3>2.130.000</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="myfooter bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3 class="fs-5">Thông tin</h3>
+                    <ul class="list-menu">
+                        <li class="li_menu"><a href="/" title="Trang chủ">Trang chủ</a></li>
+                        <li class="li_menu"><a href="/gioi-thieu" title="Giới thiệu">Giới thiệu</a></li>
+                        <li class="li_menu"><a href="/collections/all" title="Sản phẩm">Sản phẩm</a></li>
+                        <li class="li_menu"><a href="lien-he" title="Liên hệ">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fs-5">Chính sách</h3>
+                    <ul class="list-menu">
+                        <li class="li_menu"><a href="/" title="Trang chủ">Điều khoản sử dụng</a></li>
+                        <li class="li_menu"><a href="/gioi-thieu" title="Giới thiệu">Chính sách vận chuyển hàng hoá</a></li>
+                        <li class="li_menu"><a href="/collections/all" title="Sản phẩm">Chính sách bảo hành</a></li>
+                        <li class="li_menu"><a href="lien-he" title="Liên hệ">Chính sách đổi trả</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fs-5">Thônng tin khác</h3>
+                    <ul class="list-menu">
+                        <li class="li_menu"><a href="/" title="Trang chủ">Tuyển dụng</a></li>
+                        <li class="li_menu"><a href="/gioi-thieu" title="Giới thiệu">Gift Voucher</a></li>
+                        <li class="li_menu"><a href="/collections/all" title="Sản phẩm">Member Card</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fs-5">Về chúng tôi</h3>
+                    <ul class="list-menu">
+                        <li class="li_menu"><a href="/collections/all" title="Sản phẩm">Hệ thống Showroom</a></li>
+                        <li class="li_menu"><a href="lien-he" title="Liên hệ">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                   <p class="m-0">Copyright © 2008 Công ty CPTM Thế Giới Nước Hoa & Mỹ Phẩm.</p> 
+                    <p class="m-0">Giấy chứng nhận ĐKKD số: 0317116620 do Sở Kế Hoạch và Đầu Tư TPHCM cấp lần đầu ngày 10/01/2022.</p>
+                    <p class="m-0">Địa chỉ văn phòng: 10-10B Cách Mạng Tháng 8, Phường Bến Thành, Quận 1, TP HCM</p>
+                    <p class="m-0">Điện thoại: 028 73020707 - Đặt Hàng: 18006047 - CSKH: 18006077</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/certify.png" alt="" width="50%">
+                </div>
+            </div>
+            <span class="box50 mr-3 bg-primary">
+                <i class="fa-brands fa-facebook"></i>
+            </span>
+            <span class="box50 mr-3 bg-danger-subtle">
+                <i class="fa-brands fa-instagram"></i>
+            </span>
+            <span class="box50 mr-3 bg-black">
+                <i class="fa-solid fa-location-dot"></i>
+            </span>
+            <span class="box50 mr-3 bg-info">
+                <i class="fa-solid fa-phone-volume"></i>
+            </span>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">Bản quyền thuộc về Perfume Luxury Cung cấp bởi Tấn Tài</div>
+                <div class="col-md-6 text-end">Trang chủ
+                    Giới thiệu
+                    Sản Phẩm
+                    Liên hệ
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
